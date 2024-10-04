@@ -1,0 +1,223 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+  }
+
+
+  
+  .navbar {
+    background-color: #007bff;
+  }
+
+  /* .nav-link{
+    color: white;
+  } */
+  
+  .navbar-brand, .nav-link, .footer span {
+    color: white;
+  }
+  
+  .navbar .btn-outline-danger {
+    color: red;
+    border-color: red;
+  }
+  
+  .btn-outline-primary {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card h5 {
+    color: #007bff;
+  }
+  
+  .footer {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .navbar .navbar-collapse {
+      flex-direction: column;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-green-500{
+    background-color: green;
+    color: white;
+  }
+
+  /* Adjust the profile button */
+.profile-button {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Dropdown menu custom styling */
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  top: 100%;
+  min-width: 200px;
+}
+
+/* Ensuring proper alignment for dropdown items */
+.dropdown-item-text {
+  font-size: 14px;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-divider {
+  margin: 5px 0;
+}
+
+
+/* styles.css */
+
+/* Search Bar Styling */
+.search-bar {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-results a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+}
+/* 
+/* .search-results a:hover {
+  background-color: #f0f0f0;
+} */
+/* Pagination button styling */
+.pagination-btn {
+  border: 2px solid black; /* Default border color */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for button */
+  background-color: white; /* Default background color */
+  color: black; /* Default text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Styling for selected page number */
+.pagination-btn.selected {
+  border-color: green; /* Border color when selected */
+  background-color: green; /* Background color when selected */
+  color: white; /* Text color when selected */
+}
+
+/* Hover effect for non-selected buttons */
+.pagination-btn:not(.selected):hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+}
+
+.btn-primary i {
+  margin-right: 0.5rem;
+}
+
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full page height */
+  background-color: #f8f9fa; /* Optional background color */
+}
+
+.loader-logo {
+  width: 100px; /* Adjust the size of the logo */
+  height: 100px;
+  border-radius: 50%; /* Makes the logo rounded */
+  animation: spin 1s linear infinite; /* Optional: Add spin animation */
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+

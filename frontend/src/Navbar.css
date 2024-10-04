@@ -1,0 +1,23 @@
+/* Align the search button next to the search input */
+.search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust the spacing of the search input and button */
+  .search-input {
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    white-space: nowrap;
+  }
+  
+  /* Logo styling */
+  .navbar-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 15px;
+  }
+  
