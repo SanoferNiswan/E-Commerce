@@ -40,6 +40,7 @@ export const AuthProvider = ({ children }) => {
         });
 
         if (response.ok) {
+            alert('registered successful')
             navigate('/login');  // Redirect to login page after successful registration
         } else {
             const errorData = await response.json();

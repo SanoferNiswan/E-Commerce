@@ -158,8 +158,8 @@ body {
 } */
 /* Pagination button styling */
 .pagination-btn {
-  border: 2px solid black; /* Default border color */
-  border-radius: 25px; /* Rounded corners */
+  border: none;
+  /* border-radius: 25px; Rounded corners */
   padding: 10px 15px; /* Padding for button */
   background-color: white; /* Default background color */
   color: black; /* Default text color */

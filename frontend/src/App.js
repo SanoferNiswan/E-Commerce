@@ -9,7 +9,6 @@ import Dashboard from './views/Dashboard';
 import CategoryProducts from './views/CategoryProducts';
 import Navbar from './components/Navbar';
 import './styles.css'; 
-import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap styles
 import Products from './components/Products'
 import ProductDetails from './components/ProductDetails'
